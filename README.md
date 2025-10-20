@@ -50,7 +50,7 @@ I ran `vitest` with `--no-file-parallelism --no-watch` 3 times and took the lowe
 
 ### Synapse
 
-For the serialization approach, I made 1 file with N unit tests (adjusted manually) that all incremented the same counter, recording the total wall time with `time synapse test`:
+For the serialization approach, I made 1 file with N unit tests (adjusted manually) that all incremented the same counter, recording the total wall time with `time synapse test --no-cache`:
 
 | # Tests  | Duration |
 |----------|----------|
