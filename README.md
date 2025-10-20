@@ -44,7 +44,6 @@ I ran `vitest` with `--no-file-parallelism --no-watch` 3 times and took the lowe
 | 2        | 217ms    |
 | 3        | 316ms    |
 
----
 
 `--no-file-parallelism` is used to focus on single-threaded throughput as Synapse is not yet multi-threaded. Each file added 100ms.
 
@@ -58,7 +57,6 @@ For the serialization approach, I made 1 file with N unit tests (adjusted manual
 | 2        | 212ms    |
 | 3        | 226ms    |
 
----
 
 Most of time is in compilation, not execution, at around 50:1. Each new test added 10ms or 10x faster than Vitest **for this specific example**.
 
