@@ -2,7 +2,7 @@
 
 Isolation for each test case, not just per-file, is the inevitable goal of test isolation. How to make that happen is where people diverge. 
 
-With my tool, Synapse, something like this becomes practical:
+With my tool, [Synapse](https://github.com/Cohesible/synapse), something like this becomes practical:
 
 ```ts
 let c = 0 
